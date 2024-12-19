@@ -3,7 +3,9 @@ package com.example.palindrome_game.service.impl;
 import com.example.palindrome_game.model.User;
 import com.example.palindrome_game.repository.UserRepository;
 import com.example.palindrome_game.service.GameService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class GameServiceImpl implements GameService {
 
     private final UserRepository repository;
